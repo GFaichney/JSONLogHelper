@@ -1,0 +1,10 @@
+# Vim temp files
+*.swp
+
+# Node build time
+node_modules
+
+# Test log file
+*.log
+
+

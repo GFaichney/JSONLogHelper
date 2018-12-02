@@ -1,0 +1,26 @@
+{
+  "name": "LogHelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loghelper.js",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "makeLog": "rm -f error.log && node logMaker.js > error.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "winston": "^3.1.0"
+  }
+}
